@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block body %}
+
+<form method="post">
+    
+    <label>Имя</label>
+    <input type="text" name="username" placeholder="Введите имя"><br><br>
+    <label>Почта</label>
+    <input type="email" name="mail" placeholder="Введите почту"><br><br>
+    <input type="submit" value="Отправить">
+</form>
+
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}{{title}}{% endblock %}
+
+{% block body %}
+<div class="row">
+    Привет, {{ name }}
+</div>
+<div class="row"></div><br>
+<form method="post">
+<input type="submit" value="Удалить">
+</form>
+</div>
+{% endblock %}
